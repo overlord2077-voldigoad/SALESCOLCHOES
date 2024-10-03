@@ -1,0 +1,104 @@
+/*
+Theme Name: Sales Colchões
+Theme URI: http://example.com/sales-colchoes
+Author: Seu Nome
+Author URI: http://example.com
+Description: Um tema personalizado para vendas de colchões.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sales-colchoes
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+header {
+    background-color: #001f3f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #001f3f;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.produtos {
+    padding: 20px;
+    text-align: center;
+}
+
+.produto-item {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(100% - 40px);
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.produto-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.produto-item button {
+    background-color: #001f3f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sobre, .contato {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #001f3f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (min-width: 600px) {
+    .produto-item {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (min-width: 900px) {
+    .produto-item {
+        width: calc(33.33% - 40px);
+    }
+}
